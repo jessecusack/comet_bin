@@ -18,4 +18,4 @@ else
     exit 1
 fi
 
-rm -rfv $DIR/*.data $DIR/*.meta $DIR/mnc_* $DIR/available_diagnostics.log $DIR/STD* *.nc
+rm -rfv $DIR/*.data $DIR/*.meta $DIR/mnc_* $DIR/available_diagnostics.log $DIR/STD* $DIR/*.nc
