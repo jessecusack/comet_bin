@@ -28,6 +28,7 @@ RUN_BASENAME=${2:-$(basename $MODEL_PATH)}
 echo "Creating: $SCRATCH_PATH/$RUN_BASENAME"
 RUN_PATH=$SCRATCH_PATH/$RUN_BASENAME
 mkdir -p $RUN_PATH
+mkdir -p $RUN_PATH/logs
 
 echo "Copying input"
 cp -v $INPUT/*.bin $INPUT/data* $INPUT/eedata $RUN_PATH
